@@ -21,19 +21,17 @@ Repositori ini mencakup implementasi untuk:
 
 ## Struktur Repositori
 
-├── LOG_REC
-│ ├── DB.ipynb 
-│ ├── OP.ipynb 
-│ └── classic_models_clf_train.ipynb 
-├── dashboard_classic_btc.py 
-├── *.pkl (editable)
-│ ├── logreg_clf_BTC-USD_advTA_model.pkl
-│ ├── rf_clf_BTC-USD_advTA_model.pkl
-│ ├── linreg_reg_BTC-USD_advTA_model.pkl
-│ ├── scaler_X_classic_combined_BTC-USD_advTA.pkl
-│ └── scaler_y_classic_reg_BTC-USD_advTA.pkl
-├── environment.yml 
-├── requirements.txt 
+├── DB.ipynb
+├── OP.ipynb
+├── classic_models_clf_train.ipynb
+├── dashboard_classic_btc.py
+├── logreg_clf_BTC-USD_advTA_model.pkl
+├── rf_clf_BTC-USD_advTA_model.pkl
+├── linreg_reg_BTC-USD_advTA_model.pkl
+├── scaler_X_classic_combined_BTC-USD_advTA.pkl
+├── scaler_y_classic_reg_BTC-USD_advTA.pkl
+├── environment.yml             # (Jika Anda memilih Conda)
+├── requirements.txt            # (Jika Anda memilih Pip)
 └── README.md
 
 
