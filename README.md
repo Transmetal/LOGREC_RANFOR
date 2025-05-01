@@ -22,9 +22,9 @@ Repositori ini mencakup implementasi untuk:
 ## Struktur Repositori
 
 ├── LOGREC_RANFOR/
-│ ├── DB.ipynb # Notebook Penjelasan Detail Kode (langkah demi langkah)
-│ ├── OP.ipynb # Notebook Pelatihan & Evaluasi Utama (kemungkinan besar ini)
-│ ├── classic_models_clf_train.ipynb # Notebook Fokus Pelatihan Model Klasik (kemungkinan besar ini)
+│ ├── DB.ipynb # Notebook Penjelasan Detail Kode
+│ ├── OP.ipynb # Notebook Pelatihan & Evaluasi Utama 
+│ ├── classic_models_clf_train.ipynb # Notebook Fokus Pelatihan Model Klasik 
 │ ├── dashboard_classic_btc.py # Skrip Aplikasi Dashboard Streamlit
 │ ├── DB.html # (Opsional) Ekspor HTML dari DB.ipynb
 │ ├── OP.html # (Opsional) Ekspor HTML dari OP.ipynb
@@ -36,7 +36,6 @@ Repositori ini mencakup implementasi untuk:
 │ ├── scaler_X_classic_combined_BTC-USD_advTA.pkl # Scaler untuk fitur X tersimpan
 │ └── scaler_y_classic_reg_BTC-USD_advTA.pkl # Scaler untuk target Y (regresi) tersimpan
 └── README.md # File ini
-
 
 ## Model yang Digunakan
 
