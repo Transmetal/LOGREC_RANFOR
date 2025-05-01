@@ -19,24 +19,6 @@ Repositori ini mencakup implementasi untuk:
 7.  **Penyimpanan Model & Scaler:** Menyimpan model yang telah dilatih dan objek scaler menggunakan `joblib`.
 8.  **Dashboard Interaktif:** Skrip Streamlit (`dashboard_classic_btc.py`) yang memuat model/scaler tersimpan, mengambil data terbaru, melakukan prediksi arah dan estimasi harga, serta menampilkan hasilnya secara visual.
 
-## Struktur Repositori
-
-├── LOGREC_RANFOR/
-│ ├── DB.ipynb # Notebook Penjelasan Detail Kode
-│ ├── OP.ipynb # Notebook Pelatihan & Evaluasi Utama 
-│ ├── classic_models_clf_train.ipynb # Notebook Fokus Pelatihan Model Klasik 
-│ ├── dashboard_classic_btc.py # Skrip Aplikasi Dashboard Streamlit
-│ ├── DB.html # (Opsional) Ekspor HTML dari DB.ipynb
-│ ├── OP.html # (Opsional) Ekspor HTML dari OP.ipynb
-│ ├── DB.pdf # (Opsional) Ekspor PDF dari DB.ipynb
-│ ├── OP.pdf # (Opsional) Ekspor PDF dari OP.ipynb
-│ ├── logreg_clf_BTC-USD_advTA_model.pkl # Model Logistic Regression tersimpan
-│ ├── rf_clf_BTC-USD_advTA_model.pkl # Model Random Forest tersimpan
-│ ├── linreg_reg_BTC-USD_advTA_model.pkl # Model Linear Regression tersimpan
-│ ├── scaler_X_classic_combined_BTC-USD_advTA.pkl # Scaler untuk fitur X tersimpan
-│ └── scaler_y_classic_reg_BTC-USD_advTA.pkl # Scaler untuk target Y (regresi) tersimpan
-└── README.md # File ini
-
 ## Model yang Digunakan
 
 *   **Klasifikasi:** Logistic Regression, Random Forest Classifier (dari `scikit-learn`)
