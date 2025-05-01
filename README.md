@@ -21,18 +21,21 @@ Repositori ini mencakup implementasi untuk:
 
 ## Struktur Repositori
 
-├── DB.ipynb
-├── OP.ipynb
-├── classic_models_clf_train.ipynb
-├── dashboard_classic_btc.py
-├── logreg_clf_BTC-USD_advTA_model.pkl
-├── rf_clf_BTC-USD_advTA_model.pkl
-├── linreg_reg_BTC-USD_advTA_model.pkl
-├── scaler_X_classic_combined_BTC-USD_advTA.pkl
-├── scaler_y_classic_reg_BTC-USD_advTA.pkl
-├── environment.yml             # (Jika Anda memilih Conda)
-├── requirements.txt            # (Jika Anda memilih Pip)
-└── README.md
+├── LOGREC_RANFOR/
+│ ├── DB.ipynb # Notebook Penjelasan Detail Kode (langkah demi langkah)
+│ ├── OP.ipynb # Notebook Pelatihan & Evaluasi Utama (kemungkinan besar ini)
+│ ├── classic_models_clf_train.ipynb # Notebook Fokus Pelatihan Model Klasik (kemungkinan besar ini)
+│ ├── dashboard_classic_btc.py # Skrip Aplikasi Dashboard Streamlit
+│ ├── DB.html # (Opsional) Ekspor HTML dari DB.ipynb
+│ ├── OP.html # (Opsional) Ekspor HTML dari OP.ipynb
+│ ├── DB.pdf # (Opsional) Ekspor PDF dari DB.ipynb
+│ ├── OP.pdf # (Opsional) Ekspor PDF dari OP.ipynb
+│ ├── logreg_clf_BTC-USD_advTA_model.pkl # Model Logistic Regression tersimpan
+│ ├── rf_clf_BTC-USD_advTA_model.pkl # Model Random Forest tersimpan
+│ ├── linreg_reg_BTC-USD_advTA_model.pkl # Model Linear Regression tersimpan
+│ ├── scaler_X_classic_combined_BTC-USD_advTA.pkl # Scaler untuk fitur X tersimpan
+│ └── scaler_y_classic_reg_BTC-USD_advTA.pkl # Scaler untuk target Y (regresi) tersimpan
+└── README.md # File ini
 
 
 ## Model yang Digunakan
